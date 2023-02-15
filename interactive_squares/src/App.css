@@ -1,0 +1,63 @@
+html {
+    background-color: white;
+}
+
+.DiceRoller {
+    height: 10rem;
+}
+
+.PlayerBoard {
+    border: 2px blue dotted;
+    display: flex;
+    justify-content: center;
+    /* margin: auto;
+    width: auto; */
+}
+
+.colParent {
+    /* border: 2px black dotted; */
+    /* display: grid;
+    margin: 1rem; */
+    flex: 10%;
+    max-width: 10%;
+    padding: 0 0.5rem;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.colParent:hover, 
+.colParent:focus {
+    background-color: yellow;
+    outline:auto;
+}
+
+.box {
+    background: red;
+    /* width: 2rem; */
+    padding: 1rem;
+    border: 3px solid black;
+    background: white;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    cursor: pointer;
+    color: black;
+    margin: 0.5rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .box {
+    background: red;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+#empty {
+    top: 20px;
+    left: 30px;
+    background: green;
+    position: static;
+}
